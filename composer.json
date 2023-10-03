@@ -1,0 +1,20 @@
+{
+    "name": "cstine/congress-search-php",
+    "require": {
+        "illuminate/collections": "^10.23",
+        "geocodio/geocodio-library-php": "^1.5",
+        "vlucas/phpdotenv": "^5.5"
+    },
+    "authors": [
+        {
+            "name": "GoldenPavilion",
+            "email": "rcorystine@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Core\\": "Core/",
+            "Http\\": "Http/"
+        }
+    }
+}
